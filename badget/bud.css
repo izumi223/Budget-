@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+}
+
+body {
+  color: grey;
+  font-family: 'Courier',sans-serif;
+}
+
+.container {
+  border: 1px solid rgb(180, 178, 178);
+  border-radius: 1%;
+  width: 70%;
+  margin: 30px auto;
+}
+
+#header {
+  background-color: rgb(194, 241, 241);
+  text-align: center;
+  letter-spacing: 4px;
+  padding: 15px;
+  line-height: 25px;
+}
+
+#header span {
+  border-bottom: 2px dotted white;
+}
+
+#header #budget {
+  border-bottom: 3px dotted rgb(247, 212, 212);
+  color: rgb(88, 87, 87);
+  font-size: 1.5em;
+}
+
+#list {
+  min-height: 40vh;
+  padding: 40px;
+  line-height: 2rem;
+}
+
+#fotter {
+  background-color: rgb(194, 241, 241);
+  padding: 15px;
+}
+
+#fotter > .input {
+  position: absolute;
+  ;
+ 
+}
+
+input {
+  margin-top: 10px;
+  border: none;
+  padding: 5px;
+}
+
+#select {
+  border: none;
+}
+
+
